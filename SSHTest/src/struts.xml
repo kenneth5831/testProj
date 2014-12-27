@@ -30,6 +30,9 @@
         <action name="index" class="indexAction" method="index">  
            <result name="success">/index/index.jsp</result>  
         </action> 
+        <action name="mapTest" class="mapTestAction" method="index">  
+           <result name="success">/index/mapTest.jsp</result>  
+        </action> 
     </package>  
     
 </struts>  

@@ -61,6 +61,7 @@
 	</tx:advice> -->
 	
 	<bean id="indexAction" class="nerdy.action.IndexAction"></bean>
+	<bean id="mapTestAction" class="nerdy.action.MapTestAction"></bean>
 	
 	<!-- <aop:config>
 	    <aop:pointcut id="serviceMethods" 

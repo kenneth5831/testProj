@@ -9,7 +9,7 @@
     <welcome-file>default.htm</welcome-file>  
     <welcome-file>default.jsp</welcome-file>  
   </welcome-file-list>  
-  <!-- 配置struts2核心过滤器 -->  
+  <!-- 配置struts2核心過濾器 -->  
   <filter>  
     <filter-name>struts2</filter-name>  
     <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>  
@@ -18,12 +18,12 @@
     <filter-name>struts2</filter-name>  
     <url-pattern>/*</url-pattern>  
   </filter-mapping>  
-   <!-- 告诉spring容器spring配置文件的位置 -->  
+   <!-- 告訴spring容器spring配置文件的位置 -->  
   <context-param>  
     <param-name>contextConfigLocation</param-name>  
     <param-value>classpath:applicationContext.xml</param-value>  
   </context-param>  
-  <!-- 配置监听 -->  
+  <!-- 配置監聽 -->  
   <listener>  
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>  
   </listener>  

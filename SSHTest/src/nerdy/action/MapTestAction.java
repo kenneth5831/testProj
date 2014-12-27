@@ -2,7 +2,7 @@ package nerdy.action;
 
 import com.opensymphony.xwork2.ActionSupport;
 
-public class IndexAction extends ActionSupport {
+public class MapTestAction extends ActionSupport {
 	/**
 	 * 
 	 */
@@ -11,7 +11,7 @@ public class IndexAction extends ActionSupport {
 	private String msg;
 	
 	public String index() {
-		msg = "這是登錄頁";
+		msg = "這是個googleMap";
 		
         return "success";
     }
