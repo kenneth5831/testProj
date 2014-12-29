@@ -1,7 +1,0 @@
-package nerdy.config;
-
-public class IndexAction {
-	public String index() {
-        return "success";
-    }
-}

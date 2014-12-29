@@ -1,3 +1,0 @@
-#Tomcat publish data
-#Tue Dec 09 10:42:24 CST 2014
-org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Kenneth\\lunaWS\\github\\testProj\\SSHTest\\WebContent\\WEB-INF\\lib\\spring-web-3.2.3.RELEASE.jar=WEB-INF/lib/spring-web-3.2.3.RELEASE.jar
