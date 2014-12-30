@@ -7,9 +7,9 @@
     <constant name="struts.objectFactory" value="spring" />  
   
     <package name="default" namespace="/" extends="struts-default">  
- <!--        <default-action-ref name="index" />  
+        <default-action-ref name="index" />  
           
-        <global-exception-mappings>  
+      <!--   <global-exception-mappings>  
             <exception-mapping result="error" exception="java.lang.Exception" />  
         </global-exception-mappings>  
           
@@ -30,7 +30,7 @@
         <action name="index" class="indexAction" method="index">  
            <result name="success">/index/index.jsp</result>  
         </action> 
-        <action name="mapTest" class="mapTestAction" method="index">  
+        <action name="mapTest" class="mapTestAction" method="map">  
            <result name="success">/index/mapTest.jsp</result>  
         </action> 
     </package>  

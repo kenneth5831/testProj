@@ -8,7 +8,8 @@
 </head>
 <body>
 	<form action="">
-		<s:text name="msg"/>
+		<s:text name="pageMsg"/>
+		<input type="text" value="${pageMsg}">
 	</form>
 </body>
 </html>
